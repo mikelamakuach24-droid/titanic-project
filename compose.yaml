@@ -1,0 +1,15 @@
+name: titanic-project
+
+services:
+  dashboard:
+    build: .
+    image: titanic-project:local
+    ports:
+      - "8080:8000"
+    environment:
+      PORT: "8000"
+    init: true
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
