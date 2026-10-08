@@ -1,0 +1,15 @@
+.git/
+.verification/
+.venv/
+**/node_modules/
+**/dist/
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+backend/data/
+data/cleaned.csv
+notebooks/
+docs/
+.env
+.env.*
+.DS_Store
