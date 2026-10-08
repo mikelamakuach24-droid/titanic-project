@@ -1,0 +1,13 @@
+__pycache__/
+.verification/
+.env
+.env.*
+!.env.example
+.vscode/
+*.pyc
+node_modules/
+dist/
+.ipynb_checkpoints/
+.venv/
+data/cleaned.csv
+.DS_Store
